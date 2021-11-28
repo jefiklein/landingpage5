@@ -1468,8 +1468,8 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 }
 #theme-banner-five .mobile-screen-one {
   position: absolute;
-  right: -3%;
-  top: 145px;
+  right: 10%;
+  top: 140px;
   z-index: -1;
   width: 29%;
 }
@@ -2791,7 +2791,8 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 /*-------------------------- Theme Footer One -------------------*/
 .theme-footer-one {
   position: relative;
-  padding-top: 125px;
+  padding-top: 0px;
+  background-color: #1b1d3d;
 }
 .theme-footer-one .shape-two {
   position: absolute;
@@ -2828,8 +2829,6 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 }
 .theme-footer-one .top-footer .footer-information ul li a:hover {color: #fff;}
 .theme-footer-one .bottom-footer {
-  border-top: 1px solid #ededed;
-  margin-top: 90px;
   padding: 35px 0;
 }
 .theme-footer-one .bottom-footer p {float: left;color: rgba(87,102,126,0.8);}
@@ -3186,7 +3185,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 /*----------------------- Our Service/APP ------------------------*/
 .our-service-app {
   position: relative;
-  padding: 260px 0 200px;
+  padding: 160px 0 160px;
   border-bottom: 1px solid #ededed;
 }
 .our-service-app .main-content {
@@ -4170,7 +4169,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 /*--------------------- Our Feature/APP --------------------------*/
 .our-feature-app {
   position: relative;
-  padding: 310px 0 250px;
+  padding: 160px 0 160px;
 }
 .our-feature-app .single-feature-box {padding-bottom: 315px; position: relative;}
 .our-feature-app .single-feature-box:last-child {padding: 0;}
@@ -4259,7 +4258,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   top:50%;
   transform: translateY(-50%);
 }
-.our-feature-app .feature-img-box .price-feature .icon-box img {width: 22px;}
+.our-feature-app .feature-img-box .price-feature .icon-box img {width: 70%;}
 .our-feature-app .feature-img-box .feature-offer-box .title {
   font-size: 24px;
   color: #4e4e4e;
@@ -4321,6 +4320,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   position: absolute;
   top:34px;
   right: 55px;
+  display: none;
 }
 .our-feature-app .single-feature-box:nth-child(2) .feature-img-box:before {
   content:url(../images/shape/shape-50.svg);
@@ -4714,7 +4714,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   padding: 140px 0 0;
 }
 .newsletter-section .theme-title-one.upper-bar:before {background: #7491ff;}
-.newsletter-section .main-wrapper {border-bottom: 1px solid #e8e8e8;padding-bottom: 120px;}
+.newsletter-section .main-wrapper {border-bottom: 0px solid #e8e8e8;padding-bottom: 125px;}
 .newsletter-section .main-wrapper form {
   max-width: 57%;
   margin: 50px auto 0;
